@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"
+
+[build.environment]
+  NPM_VERSION = "10.8.2"
+  PNPM_VERSION = "7.15.0"  # specify the version of pnpm you want to use
